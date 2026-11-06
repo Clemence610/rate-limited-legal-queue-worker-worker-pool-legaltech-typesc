@@ -1,0 +1,6 @@
+{
+  "kind": "signed_document_delivery",
+  "matterId": "MAT-204",
+  "documentId": "DOC-88",
+  "recipientEmail": "counsel@example.test"
+}

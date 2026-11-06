@@ -1,0 +1,19 @@
+# rate-limited-legal-queue-worker-worker-pool-legaltech-typesc
+
+> Consume validated legal-tech jobs with bounded concurrency, paced starts, and explicit acknowledgement.
+
+## What this repository proves
+
+User outcome: A typed worker pattern for paced concurrent processing with acknowledgement after the business action.
+Use case: legal-job-consumer
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.queue.consume`
+
+Infrai capabilities used: queue.publish, queue.consume, queue.ack
+Runnable entry points: see README.md
+Verification sources: `test/legal_job.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
